@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>Spectral face mask</title>
+  <desc>Original pale spectral mask artwork created for the Haunted Mirror prototype.</desc>
+  <defs>
+    <linearGradient id="face" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#e8f4dd" />
+      <stop offset=".48" stop-color="#a8c4a5" />
+      <stop offset="1" stop-color="#536e69" />
+    </linearGradient>
+    <linearGradient id="shadow" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#142825" />
+      <stop offset="1" stop-color="#334944" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0" x2="1">
+      <stop stop-color="#7bf1d0" />
+      <stop offset="1" stop-color="#e6f5bc" />
+    </linearGradient>
+  </defs>
+  <path d="M512 73C328 73 197 206 188 393l9 207c7 167 111 300 315 365 204-65 308-198 315-365l9-207C827 206 696 73 512 73Z" fill="url(#face)" stroke="#d6edc5" stroke-width="16" />
+  <path d="M201 445c74-107 178-139 299-90l-27 119c-94-34-173-21-240 41l-29 116Zm622 0c-74-107-178-139-299-90l27 119c94-34 173-21 240 41l29 116Z" fill="#6d8980" opacity=".56" />
+  <path d="M248 403c48-62 126-85 222-58l-19 115c-80-30-141-19-184 35-22-25-28-56-19-92Zm528 0c-48-62-126-85-222-58l19 115c80-30 141-19 184 35 22-25 28-56 19-92Z" fill="url(#shadow)" />
+  <path d="M278 426c48-33 111-38 169-13-32 48-88 76-144 62-19-5-28-25-25-49Zm468 0c-48-33-111-38-169-13 32 48 88 76 144 62 19-5 28-25 25-49Z" fill="url(#glow)" />
+  <ellipse cx="384" cy="430" rx="27" ry="31" fill="#162d2b" />
+  <ellipse cx="640" cy="430" rx="27" ry="31" fill="#162d2b" />
+  <path d="m512 444-74 164c-8 19 4 39 25 40l49 3 49-3c21-1 33-21 25-40Z" fill="url(#shadow)" stroke="#91ab98" stroke-width="10" />
+  <path d="M356 699c44-37 93-47 156-32 63-15 112-5 156 32l-22 109c-40 28-84 43-134 43s-94-15-134-43Z" fill="#182926" stroke="#d0dfbe" stroke-width="11" />
+  <path d="M405 706v81m54-91v104m53-107v112m53-112v107m54-97v84" fill="none" stroke="#d8e8cb" stroke-linecap="round" stroke-width="12" />
+  <path d="m307 282 51 38-29 41m360-55-39 31 25 45M468 178l-17 71 47 24m125 399 57 25-18 45" fill="none" stroke="#eff5d8" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" opacity=".8" />
+</svg>
